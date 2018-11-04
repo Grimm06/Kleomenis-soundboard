@@ -12,7 +12,6 @@ h1 {
   color: white;
   text-shadow: 1px 1px black;
 }
-/* Reset Select */
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -24,7 +23,6 @@ select {
   background: #2c3e50;
   background-image: none;
 }
-/* Custom Select */
 .select {
   position: relative;
   display: block;
@@ -46,7 +44,6 @@ select {
 select::-ms-expand {
   display: none;
 }
-/* Arrow */
 .select::after {
   content: '\25BC';
   position: absolute;
@@ -57,7 +54,6 @@ select::-ms-expand {
   background: #34495e;
   pointer-events: none;
 }
-/* Transition */
 .select:hover::after {
   color: #f39c12;
 }

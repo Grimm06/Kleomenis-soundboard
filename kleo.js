@@ -1,7 +1,6 @@
-		$(window).load(function(){
-			
-     $('.loader').delay(1300) .fadeOut();
-});
+	$(window).load(function(){		
+	$('.loader').delay(1300) .fadeOut();
+	});
 	var keik = new Audio();
 	keik.src = "a/keik.mp3";
 	function PlaySound(keik) {
