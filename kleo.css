@@ -1,0 +1,49 @@
+    .img-circle {
+    border-radius: 40%;
+    }
+    body {
+      text-align: center;
+      background: url("http://media.salemwebnetwork.com/cms/CW/faith/38222-cross-sunrise-1200.1200w.tn.jpg");
+      background-size: cover;
+      color: white;
+      font-family: helvetica;
+      text-shadow: 2px 2px black;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+      background: black;
+	  color: red;
+    }
+    input[type="submit"] {
+      background: black;
+      color: red;
+    }
+	button {
+		color: red;
+		background:black;
+		padding: 5px;
+		font-weight: bold;
+		text-shadow: 1px 1px black;
+	}
+	a {
+		color: red;
+		font-size: 30px;
+	}
+	h6 {
+		font-size: 8px;
+		text-shadow: 1px 1px black;
+	}
+	p {
+		text-shadow: 1px 1px black;
+	}
+  .loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('kleome.gif') 50% 50% no-repeat rgb(249,249,249);
+  }
